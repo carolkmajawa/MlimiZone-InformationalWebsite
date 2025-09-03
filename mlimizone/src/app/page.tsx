@@ -8,3 +8,12 @@ export default function Home() {
            </div>
   );
 }
+import PowerfulFeatures from "./Features";
+
+export default function Home() {
+  return (
+    <div>
+      <PowerfulFeatures />
+    </div>
+  );
+}
